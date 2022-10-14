@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<connector-plugin class='postgres_odbc' superclass='odbc' plugin-version='0.0.0' name='PostgreSQL ODBC' version='18.1' min-version-tableau='2020.4'>
+<connector-plugin class='workday_odbc' superclass='odbc' plugin-version='0.0.1' name='Workday ODBC' version='18.1' min-version-tableau='2020.4'>
   <vendor-information>
-      <company name="Company Name"/>
-      <support-link url="https://example.com"/>
+      <company name="Inviso by Devoteam"/>
+      <support-link url="https://inviso.dk/"/>
       <driver-download-link url="https://drivers.example.com"/>
   </vendor-information>
-  <connection-customization class="postgres_odbc" enabled="true" version="10.0">
+  <connection-customization class="workday_odbc" enabled="true" version="10.0">
     <vendor name="vendor"/>
     <driver name="driver"/>
     <customizations>
